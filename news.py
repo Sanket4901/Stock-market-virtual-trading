@@ -1,7 +1,7 @@
 import smtplib, requests
 
 my_mail = "stockeye12@gmail.com"
-username = "rohitislife45@gmail.com"
+username = "example@gmail.com"
 password = "Stockeye@1122"
 connection = smtplib.SMTP("smtp.gmail.com")
 connection.starttls()
