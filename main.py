@@ -17,7 +17,7 @@ from yfinance.ticker import Ticker
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "\xb6\x15\xba'\x7f\x90\xaeOdu\xce\xd3os\x8b"
+app.config["SECRET_KEY"] = "SECRET GOES HERE"
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:@localhost/test1"
 db = SQLAlchemy(app)
 login_manager = LoginManager()
